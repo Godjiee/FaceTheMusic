@@ -1,0 +1,29 @@
+
+
+body{
+    background-color: #271234;
+}
+
+.roboto-w-900{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+.roboto-w-700 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+  }
+
+.roboto-w-500 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+  }
+
+.roboto-w-400 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+  }
+
+.f-size-title {
+    font-size: 6rem;   
+}
