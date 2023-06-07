@@ -1,29 +1,87 @@
-
-
-body{
-    background-color: #271234;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.roboto-w-900{
-  font-family: 'Roboto', sans-serif;
+body {
+  background-color: #271234;
+}
+
+/* .bg-img {
+  background-image: url('./../img/bg-home.png');
+} */
+
+/* notas */
+  /* . = root pasta inicial */
+  /* .. = uma pasta a frente ou a tras */
+
+
+
+
+
+/* margins */
+
+.mt-6 {
+  margin-top: 6rem;
+}
+
+/* typography */
+
+.f-size-title {
+  font-size: 6rem;
+}
+
+.fs-sign-up-adv {
+  font-size: 15px;
+}
+
+.roboto-w-900 {
+  font-family: "Roboto", sans-serif;
   font-weight: 900;
 }
 
 .roboto-w-700 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-  }
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
 
 .roboto-w-500 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-  }
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
 
 .roboto-w-400 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-  }
-
-.f-size-title {
-    font-size: 6rem;   
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
+
+/* widths & paddings*/
+
+.custom-login-pl {
+  padding-right: 50px;
+}
+
+.custom-search-pl {
+  padding-left: 50px;
+}
+
+/* divider */
+
+.b{
+  border-left: 4px solid #fff;  
+}
+
+/* buttons */
+
+.btn-small {
+  padding: 3px 25px;
+}
+
+.btn-big {
+  font-size: 20px;
+}
+
+.btn-outline-primary {
+  outline-color: #7149C6 !important;
+} 

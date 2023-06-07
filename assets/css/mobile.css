@@ -1,0 +1,30 @@
+@media (min-width: 768px) {
+
+  .fs-label {
+    font-size: 25px;
+  }
+  .mw-login-input {
+    max-width: 100%;
+  }
+
+  .mw-search-input {
+    max-width: 100%;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  .fs-label {
+    font-size: 50px;
+  }
+
+  .mw-login-input {
+    max-width: 70%;
+  }
+
+  .mw-search-input {
+    max-width: 70%;
+  }
+}
+
