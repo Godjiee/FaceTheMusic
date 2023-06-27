@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Face the Music</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/ebe1f3d66e.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="assets/bootstrap-5.3.0-alpha3-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/register/registerBreakpoints.css" />
+    <link rel="stylesheet" href="assets/css/register/registerStyle.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <section class="d-none d-md-block">  <!--desktop-->
+            <div class="title row mb-title mt-4">
+                <div class="col-12">
+                    <h1 class="text-white text-end roboto-w-700 fs-title">
+                        Face the Music
+                    </h1>
+                </div>
+            </div>
+        </section>
+
+        <section class="d-md-none"> <!--mobile-->
+            <div class="title row mb-title mt-4">
+                <div class="col-12">
+                    <h1 class="text-white roboto-w-700 fs-title">
+                        Register
+                    </h1>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="row mt-register">
+                <div class="offset-md-3 col-md-9 offset-lg-6 col-lg-6">
+                    <div class="custom-padding-register ">
+                        <form action="">
+                            <div class="row">
+                                <div class="col-12 d-none d-md-block">
+                                    <label class="roboto-w-700 fs-label text-white form-label mt-2">Register</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+    
+                                    <div class="mt-4">
+                                        <input type="text" class="form-control rounded-pill" id="register-username"
+                                            placeholder="Username">
+                                    </div>
+    
+                                    <div class="mt-4">
+                                        <input type="password" class="form-control rounded-pill" id="register-password"
+                                            placeholder="Password">
+                                    </div>
+    
+                                    <div class="mt-4">
+                                        <input type="password" class="form-control rounded-pill" id="register-password-confirm"
+                                            placeholder="Confirm Password">
+                                    </div>
+    
+                                </div>
+    
+                                <div class="col-md-6">
+    
+                                    <div class="mt-4">
+                                        <input type="email" class="form-control rounded-pill" id="register-email"
+                                            placeholder="E-mail">
+                                    </div>
+                                    
+                                    <select class="form-select rounded-pill mt-4" aria-label="paises" id="select-country">
+                                        <option selected>Country</option>
+                                    </select>
+                                                                    
+                                    
+                                    <!-- <div class="mt-4">
+                                        <input type="text" class="form-control rounded-pill mw-register-input" id="register-contry"
+                                            placeholder="Country">
+                                    </div> -->
+                                    
+                                    <div class="mt-4">
+                                        <input type="date" class="form-control rounded-pill" id="register-birthday"
+                                            placeholder="Birthday">
+                                    </div>
+    
+                                </div> 
+                                <div class="form-check mt-5 mt-md-4 custom-pl-updates">
+                                    <input class="form-check-input" type="checkbox" value="" id="get-updates">
+                                    <label class="form-check-label text-white fs-getupdates" for="get-updates">
+                                        I would like to receive email updates about my favorite artists.
+                                    </label>
+                                </div> 
+                            </div>
+                            <div class="row mt-md-2">
+
+                                <div class="col-12 col-md-6 mt-3 d-flex justify-content-center justify-content-md-start align-items-center">
+                                    <a href="index.html" class="text-white roboto-w-400"> 
+                                        I already have an account
+                                    </a>
+                                </div>
+                                <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end mt-4 mt-md-3">
+                                    <div>                                        
+                                        <button type="submit"
+                                                class="btn btn-outline-purple btn-text-purple rounded-pill btn-signup roboto-w-500">Sign up</button>
+                                    </div>    
+                                </div>
+                            </div>
+                        </form>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    <script src="assets/js/jquery-3.7.0.min.js"></script>
+    <script src="assets/bootstrap-5.3.0-alpha3-dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
