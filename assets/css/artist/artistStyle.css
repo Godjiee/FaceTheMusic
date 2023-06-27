@@ -1,0 +1,15 @@
+.artist-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.artist-circle {
+    width: 80px;
+    height: 80px;
+}
+
+.fs-artist-icons {
+    font-size: 45px;
+}

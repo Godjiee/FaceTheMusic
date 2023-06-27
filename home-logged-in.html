@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Face the Music</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/ebe1f3d66e.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="assets/bootstrap-5.3.0-alpha3-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/home/loggedInBreakpoints.css" />
+    <link rel="stylesheet" href="assets/css/home/loggedInStyle.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+        <div class="container-fluid container-md">
+            <span class="text-white roboto-w-700 fs-title-nav">Face the Music</span>
+            <div class="navbar-nav align-items-center">
+                <a class="d-none d-lg-block nav-link text-white roboto-w-500 d-flex align-items-center justify-content-end"
+                    href="#">Vicente</a>
+                <a class="nav-link justify-content-end" href="#"><img class="profile-image" src="assets/img/profile.jpg"
+                        alt="profile-picture" /></a>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- search artist & search event -->
+
+    <section class="container mt-9">
+        <div class="row mx-2 mx-md-0">
+            <div class="col-12 col-md-7 col-lg-5">
+                <div>
+                    <label for="logged-in-artist-search" class="roboto-w-700 fs-label text-white form-label">
+                        Search for an artist
+                    </label>
+                    <div class="position-relative mt-2">
+                        <button class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        <input type="search" class="form-control rounded-pill" id="logged-in-artist-search">
+                    </div>
+                </div>
+            </div>
+            <div class="offset-md-5 offset-lg-7"></div>
+        </div>
+
+        <div class="row mt-5 mx-2 mx-md-0">
+            <div class="col-12 col-md-7 col-lg-5">
+                <div>
+                    <label for="logged-in-event-search" class="roboto-w-700 fs-label text-white form-label">
+                        Search for an event
+                    </label>
+                    <div class="position-relative mt-2">
+                        <button class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        <input type="search" class="form-control rounded-pill" id="logged-in-event-search">
+                        <div class="d-none d-sm-block filter-icon"><i class="fa-solid fa-filter text-white"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="offset-md-5 offset-lg-7"></div>
+        </div>
+    </section>
+
+    <!-- close to you carousel -->
+    <section class="container mt-6">
+        <div class="row mb-5">
+            <span class="text-white roboto-w-700 fs-carousel-title mb-3">Close to you</span>
+            <div class="col-12 col-md-6">
+                <div id="event-carousel" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#event-carousel" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#event-carousel" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="assets/img/sonic-blast.jpg" class="d-block w-100" alt="sonic-blast">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="20000">
+                            <img src="assets/img/resurrection-fest.jpg" class="d-block w-100" alt="resurrection-fest">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#event-carousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#event-carousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+    </section>
+
+    <footer class="mt-9">
+        <div class="text-bg-dark py-3">
+            <div class="d-flex align-items-center justify-content-around">
+                <div>
+                    <i class="fs-footer-icons fa-brands fa-instagram"></i>
+                </div>
+                <div>
+                    <i class="fs-footer-icons fa-brands fa-twitter"></i>
+                </div>
+                <div>
+                    <i class="fs-footer-icons fa-brands fa-facebook"></i>
+                </div>
+            </div>
+        </div>
+    </footer>rt
+
+
+    <script src="assets/js/jquery-3.7.0.min.js"></script>
+    <script src="assets/bootstrap-5.3.0-alpha3-dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

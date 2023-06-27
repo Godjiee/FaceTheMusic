@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/ebe1f3d66e.js" crossorigin="anonymous"></script>
-    
+
     <link rel="stylesheet" href="assets/bootstrap-5.3.0-alpha3-dist/css/bootstrap.css" />
     <link rel="stylesheet" href="assets/css/home/homeBreakpoints.css" />
     <link rel="stylesheet" href="assets/css/home/homeStyle.css" />
@@ -20,8 +20,11 @@
 
 <body>
     <div class="container">
+
+        <!-- title -->
+
         <section>
-            <div class="title row mb-title mw-search-input mx-0-md mt-4">
+            <div class="title row mb-title mx-0-md mt-4">
                 <div class="col-12 p-0">
                     <h1 class="text-white roboto-w-700 mx-2 mx-md-0 fs-title p-0">
                         Face the Music
@@ -29,6 +32,8 @@
                 </div>
             </div>
         </section>
+
+        <!-- login & search form -->
 
         <section>
             <div class="row mx-0">
@@ -51,37 +56,46 @@
                                 Stay logged in
                             </label>
                         </div>
-                        <div class="mt-4 mb-2 mb-md-0 mt-md-3 d-flex justify-content-center justify-content-md-end align-items-center">
-                            <button type="submit" class="btn btn-outline-purple btn-text-purple rounded-pill btn-login roboto-w-500">Log in</button>
+                        <div
+                            class="mt-4 mb-2 mb-md-0 mt-md-3 d-flex justify-content-center justify-content-md-end align-items-center">
+                            <button type="submit"
+                                class="btn btn-outline-purple btn-text-purple rounded-pill btn-login roboto-w-500">Log
+                                in</button>
                         </div>
                     </form>
                 </div>
                 <div class="col-md-6 col-lg-5 d-flex justify-content-center custom-search-pl divider d-none d-md-block "
-                    id="search-mobile"> <!--SEARCH-->
+                    id="search-mobile">
                     <form action="">
                         <div class="mt-2">
-                            <label for="searchArtist" class="roboto-w-700 fs-label text-white form-label">
+                            <label for="home-artist-search" class="roboto-w-700 fs-label text-white form-label">
                                 Search for an artist
                             </label>
                             <div class="position-relative mt-2">
                                 <button class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></button>
-                                <input type="search" class="form-control rounded-pill custom-pl-search" id="home-artist-search">
+                                <input type="search" class="form-control rounded-pill custom-pl-search"
+                                    id="home-artist-search">
                             </div>
                         </div>
                         <div class="mt-4">
-                            <label for="searchEvent" class="roboto-w-700 fs-label text-white form-label">
+                            <label for="home-event-search" class="roboto-w-700 fs-label text-white form-label">
                                 Search for an event
                             </label>
                             <div class="position-relative mt-2">
                                 <button class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></button>
-                                <input type="search"
-                                    class="form-control rounded-pill custom-pl-search" id="home-event-search">
+                                <input type="search" class="form-control rounded-pill custom-pl-search"
+                                    id="home-event-search">
+                                <div class="d-none d-md-block filter-icon"><i class="fa-solid fa-filter text-white"></i>
+                                </div>
                             </div>
                         </div>
                     </form>
                 </div>
             </div>
         </section>
+
+        <!-- sign up advice & search without an account mobile anchor -->
+
         <section class="my-md-5">
             <div class="row">
                 <div class="col-md-7 col-lg-6 text-center mt-5 mt-md-0 p-0 order-2 order-md-1 d-none d-md-inline ">
@@ -91,13 +105,15 @@
                 </div>
 
                 <div class="col-md-7 col-lg-6 text-center mt-md-0 p-5 order-2 order-md-1 d-md-none">
-                    <a href="#" id="go-to-search-mobile" class="text-white roboto-w-400 fs-mobile-anchor"> 
+                    <a href="#" id="go-to-search-mobile" class="text-white roboto-w-400 fs-mobile-anchor">
                         Continue without an account
-                    </a> <!--search-mobile-->
+                    </a>
                 </div>
-                <div class="col-md-3 col-lg-2 d-flex justify-content-center justify-content-md-end order-1 order-md-2 mt-2 mt-md-0">
+                <div
+                    class="col-md-3 col-lg-2 d-flex justify-content-center justify-content-md-end order-1 order-md-2 mt-2 mt-md-0">
                     <button id="register-button" type="button"
-                        class="btn btn-outline-purple btn-text-purple rounded-pill btn-signup roboto-w-500">Sign up</button>
+                        class="btn btn-outline-purple btn-text-purple rounded-pill btn-signup roboto-w-500">Sign
+                        up</button>
                 </div>
             </div>
         </section>

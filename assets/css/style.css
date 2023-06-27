@@ -4,13 +4,28 @@
   box-sizing: border-box;
 }
 
+
+/* footer */
+
 /* margins */
 
 .mt-6 {
   margin-top: 6rem;
 }
+.mt-9 {
+  margin-top: 9rem;
+}
+
 
 /* typography */
+
+.fs-title-nav {
+  font-size: 30px;
+}
+
+.fs-footer-icons {
+  font-size: 40px;
+}
 
 .roboto-w-900 {
   font-family: "Roboto", sans-serif;
@@ -53,7 +68,6 @@
 
 
 
-
 /* search-magnifying-glass */
 
 .search-icon {
@@ -67,6 +81,24 @@
   border-radius: 100%;
 }
 
-.custom-pl-search {
-  padding-left: 50px;
+.filter-icon {
+  position: absolute;
+  top: 2px;
+  right: -35px;
+  font-size: 25px;
+}
+
+
+/* carousel */
+
+.text-bg-carousel {
+  background-color: rgba(0, 0, 0, 0.3); 
+}
+
+/* profile picture navbar */
+.profile-image {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
 }
