@@ -1,0 +1,66 @@
+@media (min-width: 768px) {
+  
+  .fs-title {
+    font-size: 125px;
+  }
+
+  .fs-label {
+    font-size: 30px;
+  }
+
+  .mt-register{
+    margin-top: 4rem;
+  } 
+
+  .btn-signup {
+    padding: 3px 40px;
+    font-size: 23px;
+    height: 54px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .fs-title {
+    font-size: 90px;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+
+  .custom-padding-register {
+    padding: 0 80px 0 80px;
+  }
+
+  .mt-register{
+    margin-top: 2rem;
+  }
+
+  .fs-title {
+    font-size: 60px;
+  }
+
+  .fs-label {
+    font-size: 30px;
+  }
+
+  .btn-signup {
+    font-size: 25px;
+    width: 206.4px;
+    height: 54px;
+  }
+
+}
+
+
+@media (max-width: 450px){
+  .custom-padding-register {
+    padding: 0 30px 0 30px; 
+  }
+
+  .fs-getupdates {
+    font-size: 15px;
+  }
+}
+

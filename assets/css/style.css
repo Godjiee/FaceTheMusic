@@ -4,22 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #271234;
-}
-
-/* .bg-img {
-  background-image: url('./../img/bg-home.png');
-} */
-
-/* notas */
-  /* . = root pasta inicial */
-  /* .. = uma pasta a frente ou a tras */
-
-
-
-
-
 /* margins */
 
 .mt-6 {
@@ -27,14 +11,6 @@ body {
 }
 
 /* typography */
-
-.f-size-title {
-  font-size: 6rem;
-}
-
-.fs-sign-up-adv {
-  font-size: 15px;
-}
 
 .roboto-w-900 {
   font-family: "Roboto", sans-serif;
@@ -56,32 +32,41 @@ body {
   font-weight: 400;
 }
 
-/* widths & paddings*/
-
-.custom-login-pl {
-  padding-right: 50px;
-}
-
-.custom-search-pl {
-  padding-left: 50px;
-}
-
-/* divider */
-
-.b{
-  border-left: 4px solid #fff;  
-}
 
 /* buttons */
 
-.btn-small {
-  padding: 3px 25px;
-}
-
-.btn-big {
-  font-size: 20px;
-}
-
-.btn-outline-primary {
-  outline-color: #7149C6 !important;
+.btn-outline-purple {
+  border-color: #7149C6;
 } 
+
+.btn-outline-purple:hover{
+  background-color: #7149C6;
+}
+
+.btn-text-purple {
+  color: #7149C6 ;
+}
+
+.btn-text-purple:hover {
+  color: white;
+}
+
+
+
+
+/* search-magnifying-glass */
+
+.search-icon {
+  position: absolute;
+  top: -3px;
+  left: 0;
+  height: 45px;
+  width: 45px;
+  background: #fff;
+  border: 3px solid #000;
+  border-radius: 100%;
+}
+
+.custom-pl-search {
+  padding-left: 50px;
+}

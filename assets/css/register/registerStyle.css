@@ -1,0 +1,17 @@
+
+body {
+  background-color: #271234;
+  /* background-image: url("./../img/bgimg.png");
+  background-size: cover; */
+}
+
+.title {
+  max-width: 100%;
+}
+
+.custom-pl-updates {
+  margin-left: 12px;
+}
+
+
+

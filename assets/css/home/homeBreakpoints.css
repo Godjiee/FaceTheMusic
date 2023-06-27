@@ -1,0 +1,139 @@
+@media (min-width: 768px) {
+
+  .divider{
+    border-left: 4px solid #fff;  
+  }
+
+  .m-btn-signup {
+    margin-right: 7px;
+  }
+
+  .fs-sign-up-adv {
+    font-size: 18px;
+  }
+
+  .btn-login {
+    padding: 3px 25px;
+    font-size: 17px;
+  }
+
+  .btn-signup {
+    padding: 3px 40px;
+    font-size: 23px;
+  }
+
+  .mb-title {
+    margin-bottom: 9rem;
+  }
+
+  .fs-title {
+    font-size: 125px;
+  }
+
+  .fs-label {
+    font-size: 25px;
+  }
+
+  .custom-login-pl {
+    padding-right: 50px;
+  }
+
+  .custom-search-pl {
+    padding-left: 50px;
+  }
+
+  .title {
+    max-width: 90%;
+  }
+
+
+}
+
+
+
+@media (max-width: 768px) {
+
+  .title {
+    max-width: 73%
+  }
+
+  .btn-login {
+    font-size: 25px;
+    width: 100%;
+    height: 50px;
+  }
+
+  .btn-signup {
+    font-size: 25px;
+    width: 206.4px;
+    height: 50px;
+  }
+
+  .mb-title {
+    margin-bottom: 1rem;
+  }
+
+  h1 {
+    padding: 5px 20px;
+  }
+
+  .fs-title {
+    font-size: 60px;
+  }
+
+  .fs-label {
+    font-size: 30px;
+  }
+
+  .custom-login-pl {
+    padding-right: 12px;
+  }
+
+  .custom-search-pl {
+    padding-left: 0px;
+  }
+
+  .m-btn-signup {
+    margin-right: 0px;
+  }
+
+  .fs-sign-up-adv {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+
+  .btn-signup {
+    padding: 3px 26px;
+    font-size: 20px;
+  }
+
+  .fs-sign-up-adv {
+    font-size: 15px;
+  }
+
+}
+
+@media (max-width: 528px) {
+
+  .title {
+    max-width: 84%
+  }
+
+}
+
+@media (min-width: 528px) and (max-width: 768px) {
+
+  .title {
+    max-width: 74%
+  }
+
+}
+
+
+
+
+
+
+
